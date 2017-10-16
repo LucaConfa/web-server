@@ -2,7 +2,7 @@ let express = require('express');
 const PORT = 3000;
 var app = express();
 
-var middleware = require('./middleware.js');
+var middleware = require('./middleware.js'); 
 
 
 //add middleware to app level
